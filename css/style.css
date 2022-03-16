@@ -1,0 +1,163 @@
+section {
+    margin-bottom: 100px;
+}
+
+body {
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 16px;
+}
+
+/* Navbar */
+.nav-item {
+    padding-left: 32px;
+    font-family: Helvetica;
+    font-style: normal;
+    color: #000000;
+    font-weight: normal;
+}
+
+/* Navbar */
+
+/* Gambar Mobil */
+#img-car {
+    width: 704px;
+    height: 407px;
+    margin-top: 97px;
+}
+
+@media screen and (max-width: 992px) {
+    #img-car {
+        display: none;
+    }
+}
+
+/* Gambar Mobil */
+
+/* Button */
+.btn {
+    background-color: #5CB85F;
+    font-family: Helvetica;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* Button */
+
+/* Home */
+#title-rental {
+    margin-top: 100px;
+}
+
+/* Home */
+
+/* Get Start */
+#get-start {
+    background-color: #0D28A6;
+    color: #FFFFFF;
+    border-radius: 13px;
+    margin-top: 150px
+}
+
+#title-start {
+    margin-top: 64px;
+}
+
+#btn-start {
+    margin-bottom: 72px;
+}
+
+/* Get Start */
+
+/* FAQ */
+.accordion-button {
+    border: 1px solid #D4D4D4;
+    border-radius: 4px;
+    margin-top: 8px;
+}
+
+/* FAQ */
+
+/* footer */
+.footer-link {
+    text-decoration: none;
+    color: black;
+}
+
+/* footer */
+
+/* owl carousel */
+#owl-card {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+#owl-testi {
+    background-color: #F1F3FF;
+    border-radius: 8px;
+
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+#owl-rate {
+    width: 10%;
+    padding-top: 69px;
+    padding-bottom: 8px;
+}
+
+#owl-img {
+    width: 15%;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    padding-left: 46px;
+    padding-right: 46px;
+}
+
+.owl-text1 {
+    padding-bottom: 8px;
+}
+
+.owl-theme .owl-dots {
+    display: none;
+}
+
+.owl-prev,
+.owl-next {
+    position: absolute;
+
+}
+
+.owl-prev {
+    left:  45%;
+}
+
+.owl-next {
+    right: 45%;
+}
+
+.owl-prev span,
+.owl-next span {
+    font-size: 30px;
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: -10px;
+    padding-bottom: 5px;
+    border-radius: 100%;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+button.owl-next {
+    background-color: transparent !important;
+}
+
+.owl-prev span:hover,
+.owl-next span:hover {
+    color: #FFFFFF;
+    background: #5CB85F;
+}
+
+/* owl carousel */
